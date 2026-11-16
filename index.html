@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Voxelings — Privacy Policy</title>
-  <meta name="description" content="Privacy policy of the mobile game Voxelings. The game itself does not collect personal data; it shows non-personalized Unity Ads.">
+  <meta name="description" content="Privacy policy of the mobile game Voxelings. The game asks for no personal details; it shows non-personalized Unity Ads and uses Firebase usage statistics and crash reports.">
   <link rel="alternate" hreflang="en" href="./">
   <link rel="alternate" hreflang="ru" href="ru/">
   <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
     <ul class="meta">
       <li>Effective date: November 16, 2026</li>
       <li>Developer: Denis Buchkov</li>
-      <li>App: Voxelings for Android, later for iOS</li>
+      <li>App: Voxelings for Android and iOS</li>
       <li>App ID: com.budekong.voxelyata</li>
     </ul>
   </header>
@@ -27,8 +27,8 @@
   <main>
     <section class="short">
       <h2 style="margin-top:0">1. In short</h2>
-      <p>The game itself does not collect personal data and does not require an account. Your progress is stored only on your device.</p>
-      <p>The game shows Unity Ads. The ads are not personalized. To show them, the ad network receives technical data about the device (see “Third-party services”).</p>
+      <p>The game does not ask for your name, email or phone number and does not require an account. Your progress is stored only on your device.</p>
+      <p>The game uses third-party services: Unity Ads (non-personalized ads), and Firebase usage statistics and crash reports. They receive technical data about the device and anonymous information about how the game is used (see “Third-party services”).</p>
     </section>
 
     <section>
@@ -36,8 +36,17 @@
       <p>The game does not collect your name, email address, phone number, contacts, photos or precise location.</p>
       <ul>
         <li>There are no accounts and no login.</li>
-        <li>There is no third-party analytics.</li>
-        <li>The device advertising identifier is not used: the permission for it has been removed from the app.</li>
+        <li>The device advertising identifier is not used: on Android the permission for it has been removed from the app, and on iOS the game does not ask for permission to track.</li>
+        <li>The names you give your voxelings, and any other text you type, are not sent anywhere.</li>
+      </ul>
+      <p>Sent to third-party services:</p>
+      <ul>
+        <li>a random app installation identifier (it is not linked to your name and changes after you reinstall the app);</li>
+        <li>game events without names or text — for example “egg painted”, “voxeling hatched”, “lair opened”;</li>
+        <li>device model, operating system version, app version and language;</li>
+        <li>IP address and the approximate location derived from it (country, city);</li>
+        <li>information about ad views and taps;</li>
+        <li>information about app crashes.</li>
       </ul>
       <p>Stored on your device:</p>
       <ul>
@@ -46,7 +55,7 @@
         <li>cubes and outfits;</li>
         <li>your settings and the language you chose.</li>
       </ul>
-      <p>This data is not sent anywhere and is deleted together with the app.</p>
+      <p>This data stays on your device and is deleted together with the app.</p>
     </section>
 
     <section>
@@ -60,25 +69,31 @@
     </section>
 
     <section>
-      <h2>4. Children</h2>
+      <h2>4. Purchases</h2>
+      <p>The Google Play and App Store versions have one purchase, “Remove ads”. It turns off the ads between eggs. The payment is handled by the app store; the game does not receive card details or any other payment data. The purchase opens only after a question for grown-ups.</p>
+      <p>The RuStore version has no purchases.</p>
+    </section>
+
+    <section>
+      <h2>5. Children</h2>
       <p>Voxelings is suitable for children, including children under 13.</p>
-      <p>We do not knowingly collect data from children. The game itself does not collect personal data from anyone, whatever their age.</p>
-      <p>Ads are shown in a mode for a child audience: without personalization and without the advertising identifier. This is how we follow the children's privacy rules of COPPA (the U.S. Children's Online Privacy Protection Act) and of the GDPR (the EU General Data Protection Regulation).</p>
+      <p>We do not knowingly collect personal details from children: the game does not ask anyone for a name, age, email or phone number, whatever their age.</p>
+      <p>Ads are shown in a mode for a child audience: without personalization and without the advertising identifier. Usage statistics are collected without the advertising identifier and are not used for advertising. This is how we follow the children's privacy rules of COPPA (the U.S. Children's Online Privacy Protection Act) and of the GDPR (the EU General Data Protection Regulation).</p>
     </section>
 
     <section>
-      <h2>5. Android permissions</h2>
+      <h2>6. Permissions</h2>
       <ul>
-        <li><strong>Internet and network state</strong> — to load ads.</li>
+        <li><strong>Internet and network state</strong> — to load ads and to send statistics and crash reports.</li>
         <li><strong>Notifications</strong> — for a single local reminder that an egg is ready. The reminder is created on the device itself, without any server. You can decline this permission.</li>
-        <li><strong>Vibration</strong> — the device vibrates when you interact with the game, to make it feel more immersive.</li>
+        <li><strong>Vibration</strong> (Android) — the device vibrates when you interact with the game.</li>
       </ul>
-      <p>The game has no access to your camera, microphone, contacts, location or photos.</p>
+      <p>The game has no access to your camera, microphone, contacts, location or photos. On iOS the game does not ask for permission to track.</p>
     </section>
 
     <section>
-      <h2>6. Third-party services</h2>
-      <p><strong>Unity Ads</strong> (Unity Technologies) — shows the ads. To show ads and to protect against fraud, Unity receives technical data:</p>
+      <h2>7. Third-party services</h2>
+      <p><strong>Unity Ads</strong> (Unity Technologies) — shows the ads and monitors their quality. To show ads and to protect against fraud, Unity receives technical data:</p>
       <ul>
         <li>device model and operating system version;</li>
         <li>IP address and the approximate location derived from it (country, city);</li>
@@ -86,27 +101,38 @@
         <li>diagnostic data.</li>
       </ul>
       <p>Unity's privacy policy: <a href="https://unity.com/legal/privacy-policy" rel="noopener noreferrer">unity.com/legal/privacy-policy</a></p>
-      <p>The app store (RuStore, Google Play or the App Store) processes data about downloads under its own policy.</p>
+      <p><strong>Google Analytics for Firebase and Firebase Crashlytics</strong> (Google) — usage statistics and crash reports. We use them to see which parts of the game work badly and to fix errors. Google receives:</p>
+      <ul>
+        <li>a random app installation identifier;</li>
+        <li>game events without names or text;</li>
+        <li>device model, operating system version, app version and language;</li>
+        <li>IP address and the country derived from it;</li>
+        <li>information about crashes.</li>
+      </ul>
+      <p>The advertising identifier is not collected, and the data is not used for advertising. Statistics are kept for no longer than 14 months, crash reports for 90 days.</p>
+      <p>Google's privacy policy: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">policies.google.com/privacy</a></p>
+      <p>The app store (RuStore, Google Play or the App Store) processes data about downloads and purchases under its own policy.</p>
     </section>
 
     <section>
-      <h2>7. Links to external websites</h2>
+      <h2>8. Links to external websites</h2>
       <p>The settings screen has a link to this policy. It opens in the browser only after a question for grown-ups.</p>
     </section>
 
     <section>
-      <h2>8. How to delete your data</h2>
-      <p>Delete the app — the game's data is removed from your device together with it.</p>
+      <h2>9. How to delete your data</h2>
+      <p>Delete the app — the game's data is removed from your device together with it. The installation identifier is no longer used after that; a new installation gets a different one.</p>
+      <p>To delete statistics already sent to Firebase, write to us at the address in “Contact”.</p>
       <p>For data processed by Unity Ads, send a request to Unity using the link to their policy in “Third-party services”.</p>
     </section>
 
     <section>
-      <h2>9. Changes to this policy</h2>
+      <h2>10. Changes to this policy</h2>
       <p>If this policy changes, the new version will be published on this page with a new effective date.</p>
     </section>
 
     <section>
-      <h2>10. Contact</h2>
+      <h2>11. Contact</h2>
       <p>Questions about this policy? Write to us: <a href="mailto:denibuchkov@gmail.com">denibuchkov@gmail.com</a></p>
     </section>
   </main>
